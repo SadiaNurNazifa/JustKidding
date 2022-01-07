@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -36,7 +37,6 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 </head>
-<script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
 
               <script>
                 const firebaseConfig = {
@@ -48,10 +48,11 @@
                 messagingSenderId: "327193423372",
                 appId: "1:327193423372:web:564332f27cfb37d06dc829",
                 measurementId: "G-4V9V3J7BQD"
-  };
+               };
    firebase.initializeApp(firebaseConfig);
               </script>
-              <script src="assests/js/comments.js"></script>
+              <script src="forms/comments.js"></script>
+              
 
 <body>
 
@@ -111,7 +112,7 @@
           <section id="contact" class="contact">
             <div class="container" data-aos="fade-up">
               
-              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <form action="forms/comments.js" method="post" role="form" class="php-email-form">
                 <div class="row">
                   <div >
                     <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -123,9 +124,9 @@
                   </div>
                 </div>
                 <div class="form-group mt-3">
-                  <textarea class="form-control" name="message" rows="8" placeholder="Message" required></textarea>
+                  <textarea class="form-control" name="message" id="post" rows="8" placeholder="Message" required></textarea>
                 </div>
-                <div class="text-center"><button type="submit" id="post" class="btn btn-primary" onclick="storecomment()">Post Comment</button></div>
+                <div class="text-center"><button type="submit" class="btn btn-primary" onclick="storecomment()">Post Comment</button></div>
               </form> 
       
                 </div>

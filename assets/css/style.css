@@ -755,11 +755,20 @@ section {
 /*--------------------------------------------------------------
 # choose
 --------------------------------------------------------------*/
-.choose{
+.why-us{
   background: url(../img/memebgg.jpg) center center no-repeat;
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.8);
   position: relative;
+}
+
+.why-us .container{
+    position: relative;
+  
+}
+
+.why-us .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #cda45e;
 }
 
 .why-us .box {
@@ -938,15 +947,15 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Events
+# why-us
 --------------------------------------------------------------*/
-.events {
+.why-us {
   background: url(../img/memebgg.jpg) center center no-repeat;
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.8);
   position: relative;
 }
-.events::before {
+.why-us::before {
   content: "";
   background-color: rgba(0, 0, 0, 0.8);
   position: absolute;
@@ -955,64 +964,64 @@ section {
   left: 0;
   bottom: 0;
 }
-.events .section-title h2 {
+.why-us .section-title h2 {
   color: #fff;
 }
-.events .container {
+.why-us .container {
   position: relative;
 }
 @media (min-width: 1024px) {
-  .events {
+  .why-us {
     background-attachment: fixed;
   }
 }
-.events .events-carousel {
+.why-us .events-carousel {
   background: rgba(255, 255, 255, 0.08);
   padding: 30px;
 }
-.events .event-item {
+.why-us .event-item {
   color: #fff;
 }
-.events .event-item h3 {
+.why-us .event-item h3 {
   font-weight: 600;
   font-size: 26px;
   color: #cda45e;
 }
-.events .event-item .price {
+.why-us .event-item .price {
   font-size: 26px;
   font-family: "Comic Sans MS", sans-serif;
   font-weight: 700;
   margin-bottom: 15px;
 }
-.events .event-item .price span {
+.why-us .event-item .price span {
   border-bottom: 2px solid #cda45e;
 }
-.events .event-item ul {
+.why-us .event-item ul {
   list-style: none;
   padding: 0;
 }
-.events .event-item ul li {
+.why-us .event-item ul li {
   padding-bottom: 10px;
 }
-.events .event-item ul i {
+.why-us .event-item ul i {
   font-size: 20px;
   padding-right: 4px;
   color: #cda45e;
 }
-.events .event-item p:last-child {
+.why-us .event-item p:last-child {
   margin-bottom: 0;
 }
-.events .swiper-pagination {
+.why-us .swiper-pagination {
   margin-top: 30px;
   position: relative;
 }
-.events .swiper-pagination .swiper-pagination-bullet {
+.why-us .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: rgba(255, 255, 255, 0.4);
   opacity: 1;
 }
-.events .swiper-pagination .swiper-pagination-bullet-active {
+.why-us .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #cda45e;
 }
 
@@ -1397,7 +1406,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: black;
+  background: rgba(0, 0, 0, 0.336);
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -1406,7 +1415,7 @@ section {
   background: #0c0b09;
   border-top: 1px solid #37332a;
   border-bottom: 1px solid #28251f;
-  padding: 60px 0 30px 0;
+  padding: 20px 0 5px 0;
 }
 #footer .footer-top .footer-info {
   margin-bottom: 30px;
@@ -1517,12 +1526,12 @@ section {
   background: #d3af71;
 }
 #footer .copyright {
-  text-align: center;
-  padding-top: 30px;
+  text-align: left;
+  padding-top: 25px;
 }
 #footer .credits {
-  padding-top: 10px;
-  text-align: center;
+  
+  text-align: right;
   font-size: 13px;
   color: #fff;
 }
