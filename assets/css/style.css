@@ -24,7 +24,10 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h4, h5, h6 {
+  font-family: "Helvetica", serif;
+}
+h2, h3 {
   font-family: "Comic Sans MS", serif;
 }
 
@@ -180,7 +183,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   letter-spacing: 1px;
   text-transform: uppercase;
-  font-family: "Comic Sans MS", sans-serif;
+  font-family: "Helvetica", sans-serif;
 }
 #header .logo a {
   color: #fff;
@@ -428,7 +431,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 56px;
   color: #fff;
-  font-family: "Comic Sans MS", sans-serif;
+  font-family: "Helvetica", sans-serif;
 }
 #hero h1 span {
   color: #cda45e;
@@ -600,7 +603,7 @@ section {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
-  font-family: "Comic Sans MS", sans-serif;
+  font-family: "Helvetica", sans-serif;
 }
 .section-title h2::after {
   content: "";
@@ -615,7 +618,7 @@ section {
   margin: 0;
   font-size: 36px;
   font-weight: 700;
-  font-family: "Playfair Display", serif;
+  font-family: "Helvetica", serif;
   color: #cda45e;
 }
 
@@ -669,7 +672,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: url("../img/memebgg.jpg") center center;
+  background: url("../img/aboutme.jpg") center center;
   background-size: cover;
   position: relative;
   padding: 80px 0;
@@ -682,6 +685,18 @@ section {
   top: 0;
   left: 0;
   right: 0;
+}
+
+
+.about .about-img .img-transition {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+}
+
+.about .about-img .img-transition:hover{
+  opacity: 1;
 }
 .about .about-img {
   position: relative;
@@ -831,7 +846,7 @@ section {
   margin-bottom: 10px;
   transition: all ease-in-out 0.3s;
   border-radius: 50px;
-  font-family: "Comic Sans MS", serif;
+  font-family: "Helvetica", serif;
 }
 .menu #menu-flters li:hover, .menu #menu-flters li.filter-active {
   color: #cda45e;
@@ -889,7 +904,7 @@ section {
   margin-left: 85px;
   font-style: italic;
   font-size: 14px;
-  font-family: "Comic Sans MS", sans-serif;
+  font-family: "Helvetica", sans-serif;
   color: rgba(255, 255, 255, 0.5);
 }
 
