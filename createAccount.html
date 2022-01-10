@@ -37,8 +37,7 @@
 </head>
 
 <body>
-
- 
+  
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-cente">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
@@ -52,7 +51,6 @@
           <li><a class="nav-link scrollto active" href="index.html"><h4>Home</h4></a></li>
           <li><a href="about.html"><h4>About</h4></a></li>
           <li><a href="login.html"><h4>Log In</h4></a></li>
-          <li><a href="contact.html"><h4>Contact Us</h4></a></li>
           <li><a href="contest.html"><h4>Contest</h4></a></li>
         </ul>
         
@@ -67,19 +65,40 @@
 
   <main id="main">
 
-    <section id="book-a-table" class="book-a-table">
-      <div class="container" data-aos="fade-up">
+    <section id="login" class="login">
+    <section id="book-a-table" class="book-a-table" style="text-align: center;">
+      
 
+          
+            <div class="container" data-aos="zoom-in">
         <div class="section-title">
-          
-          
-         
-          <p><br></p>
-            <p>Contact Us</p>
+ 
+            <p>Create Account</p>
           
         </div>
+  
+        <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100" >
+          <section id="book-a-table" class="book-a-table" style="text-align: center;">
+
+          <div class="text-center" >
+            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+            <div class="validate"></div>
+          </div>
+          <br>
+           
+            <div class="text-center">
+              
+              <input type="password" name="name" class="form-control" id="name" placeholder="Enter Password" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <p> <a href="login.html">login</a></p>
+          <br>
+        </section>
+          <div class="text-center"><button type="submit">Create</button></div>
+        </form>
+        
+
       </div>
-      <div style="margin-left: 160px;"><p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.5562984610765!2d90.34948111448402!3d23.763196894205343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c09de3bc9671%3A0x7bfcff8b64bde3d4!2sNobodoy%20Housing%20Society%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1641617092831!5m2!1sen!2sbd" width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p></div>
     </section><!-- End Book A Table Section -->
             
           </div>
@@ -88,45 +107,7 @@
       </div>
     </section><!-- End About Section -->
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up">
-
-
-         
-
-          <div class="col-lg-8 mt-5 mt-lg-0">
-
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group" >
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="8" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Contact Section -->
-
+ 
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -185,6 +166,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+</div>
 
 </body>
 

@@ -52,7 +52,6 @@
           <li><a class="nav-link scrollto active" href="index.html"><h4>Home</h4></a></li>
           <li><a href="about.html"><h4>About</h4></a></li>
           <li><a href="login.html"><h4>Log In</h4></a></li>
-          <li><a href="contact.html"><h4>Contact Us</h4></a></li>
           <li><a href="contest.html"><h4>Contest</h4></a></li>
         </ul>
         
@@ -80,6 +79,11 @@
           <p><br></p>
           <h1>MemeCon</h1>
           <!-- ======= memecon context ======= -->
+
+
+          
+
+
     <section id="book-a-table" class="book-a-table">
       <div class="container" data-aos="fade-up">
 
@@ -90,33 +94,34 @@
           
         </div>
 
-        
-        
-        <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
-          
-          <div class="col-lg-6 col-md-6 form-group">
-            <input type="text" name="name" class="form-control" id="name" placeholder="Enter name">
-            <div class="validate"></div>
-          </div>
-          
-
-            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
-              <div class="validate"></div>
+        <section id="contact" class="contact">
+            <div class="container" data-aos="fade-up">
+              
+              <form action="forms/comments.js" method="post" role="form" class="php-email-form">
+                <div class="row">
+                  <div >
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                    <p><br></p>
+                  </div>
+                  <div>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                    <p><br></p>
+                  </div>
+                </div>
+                <div class="form-group mt-3">
+                  <textarea class="form-control" name="message" id="post" rows="8" placeholder="Message" required></textarea>
+                </div>
+                <div class="text-center"><button type="submit" class="btn btn-primary" onclick="storecomment()">Post Comment</button></div>
+              </form> 
+      
+                </div>
+      
+              </div>
+      
             </div>
+          </section>
         
-            
-          <div class="form-group mt-3">
-            <textarea class="form-control" name="message" rows="5" placeholder="Enter your caption here"></textarea>
-            <div class="validate"></div>
-          </div>
-          <div class="mb-3">
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your message was sent. Thank you!</div>
-          </div>
-          <div class="text-center"><button type="submit">Send</button></div>
-        </form>
+        
 
       </div>
     </section><!-- End memecon context -->

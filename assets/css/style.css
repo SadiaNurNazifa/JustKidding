@@ -867,6 +867,169 @@ section {
 }
 
 
+/* /*veme* */
+
+.veme {
+  background: url("../img/gg.jpg") center;
+  background-size: cover;
+  position: relative;
+  padding: 80px 0;
+}
+.veme:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+/* vm11 */
+.veme1 {
+  background: url("../img/vdomeme1.jpg") center;
+  background-size: cover;
+  position: relative;
+  padding: 80px 0;
+}
+.veme1:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+/* imagememe */
+.imgmm {
+  background: url("../img/competition.jpg") center;
+  background-size: cover;
+  position: relative;
+  padding: 80px 0;
+}
+.imgmm:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+/* wwm */
+.wwm {
+  background: url("../img/chooose.jpg") center;
+  background-size: cover;
+  position: relative;
+  padding: 80px 0;
+}
+.wwm:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+/* login */
+.login {
+  background: url("../img/login.jpg") center;
+  background-size: cover;
+  position: relative;
+  padding: 200px 0;
+}
+.login:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+/* .contest .contest-img .img-transition {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+}
+
+.contest .contest-img .img-transition:hover{
+  opacity: 1;
+}
+.contest .contest-img {
+  position: relative;
+  transition: 0.5s;
+}
+.contest .contest-img img {
+  max-width: 100%;
+  border: 4px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+}
+.contest .contest-img::before {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 60px;
+  height: 60px;
+  z-index: 1;
+  content: "";
+  border-left: 5px solid rgb(169, 218, 55);
+  border-top: 5px solid rgb(169, 218, 55);
+  transition: 0.5s;
+}
+.contest .contest-img::after {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  width: 60px;
+  height: 60px;
+  z-index: 2;
+  content: "";
+  border-right: 5px solid rgb(169, 218, 55);
+  border-bottom: 5px solid rgb(169, 218, 55);
+  transition: 0.5s;
+}
+.contest .contest-img:hover {
+  transform: scale(1.03);
+}
+.contest .contest-img:hover::before {
+  left: 10px;
+  top: 10px;
+}
+.contest  .contest-img:hover::after {
+  right: 10px;
+  bottom: 10px;
+} */
+/* .veme .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+.veme .content ul {
+  list-style: none;
+  padding: 0;
+}
+.veme .content ul li {
+  padding-bottom: 10px;
+}
+.veme .content ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: rgb(169, 218, 55);
+}
+.veme .content p:last-child {
+  margin-bottom: 0;
+} */
+@media (min-width: 1024px) {
+  .veme {
+    background-attachment: fixed;
+  }
+}
+
 /*--------------------------------------------------------------
 # choose
 --------------------------------------------------------------*/
@@ -1151,21 +1314,21 @@ section {
 .book-a-table .php-email-form .form-group {
   padding-bottom: 5px;
 }
-.book-a-table .php-email-form .validate {
+/* .book-a-table .php-email-form .validate {
   display: none;
   color: red;
   margin:0 0 15px 0;
   font-weight: 400;
   font-size: 13px;
-}
-.book-a-table .php-email-form .error-message {
+} */
+/* .book-a-table .php-email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
   text-align: left;
   padding: 15px;
   font-weight: 600;
-}
+} */
 .book-a-table .php-email-form .error-message br + br {
   margin-top: 25px;
 }
@@ -1198,17 +1361,17 @@ section {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
-  background: #161616;
-  border-color: #625b4b;
+  background: #afd1329c;
+  border-color: #afd1329c;
   color: white;
   width: 400px;
   margin-right: 20px;
 }
 .book-a-table .php-email-form input::-moz-placeholder, .book-a-table .php-email-form textarea::-moz-placeholder {
-  color: #a49b89;
+  color: #ffffff;
 }
 .book-a-table .php-email-form input::placeholder, .book-a-table .php-email-form textarea::placeholder {
-  color: #a49b89;
+  color: #ffffff;
 }
 .book-a-table .php-email-form input:focus, .book-a-table .php-email-form textarea:focus {
   border-color: rgb(169, 218, 55);
@@ -1228,7 +1391,7 @@ section {
   border-radius: 50px;
 }
 .book-a-table .php-email-form button[type=submit]:hover {
-  background: #d3af71;
+  background: #008bc2;
 }
 
 /*--------------------------------------------------------------
@@ -1243,7 +1406,7 @@ section {
 }
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
-  border-radius: 50%;
+  border-radius: 100%;
   margin: -40px 0 0 40px;
   position: relative;
   z-index: 2;
@@ -1261,7 +1424,7 @@ section {
   margin: 0 0 0 45px;
 }
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
-  color: #d3af71;
+  color: #88db62;
   font-size: 26px;
 }
 .testimonials .testimonial-item .quote-icon-left {
@@ -1279,7 +1442,7 @@ section {
   font-style: italic;
   margin: 0 15px 0 15px;
   padding: 20px 20px 60px 20px;
-  background: #26231d;
+  background: rgba(120, 168, 7, 0.349);
   position: relative;
   border-radius: 6px;
   position: relative;
@@ -1438,7 +1601,7 @@ section {
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d;
+  background: #92ee5579;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1472,15 +1635,15 @@ section {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
-  background: #0c0b09;
-  border-color: #625b4b;
+  background: #391cb896;
+  border-color: #391cb896;
   color: white;
 }
 .contact .php-email-form input::-moz-placeholder, .contact .php-email-form textarea::-moz-placeholder {
   color: #a49b89;
 }
 .contact .php-email-form input::placeholder, .contact .php-email-form textarea::placeholder {
-  color: #a49b89;
+  color: #9189a4;
 }
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
   border-color: rgb(169, 218, 55);
@@ -1492,7 +1655,7 @@ section {
   padding: 10px 12px;
 }
 .contact .php-email-form button[type=submit] {
-  background: rgb(169, 218, 55);
+  background: rgb(104, 55, 218);
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1500,7 +1663,7 @@ section {
   border-radius: 50px;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #d3af71;
+  background: #2b026d;
 }
 @-webkit-keyframes animate-loading {
   0% {
@@ -1529,7 +1692,7 @@ section {
   font-size: 14px;
 }
 #footer .footer-top {
-  background: #0C0B09;
+  background: #1a2c0677;
   border-top: 1px solid #0C0B09;
   border-bottom: 1px solid #0C0B09;
   padding: 20px 0 5px 0;
